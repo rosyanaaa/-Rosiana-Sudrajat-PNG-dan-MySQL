@@ -1,10 +1,14 @@
+Nama: ROSIANA SUDRAJAD 
+KELAS: PTI E
+NIM: 24241157
+
 CREATE TABLE `DOKTER` (
   `id_dokter` int PRIMARY KEY,
   `nama` varchar(30),
   `sp` varchar(20),
   `no_tlpn` int,
   `kode_poli` int
-);
+); 
 
 CREATE TABLE `POLIKLINIK` (
   `kode_poli` int PRIMARY KEY,
